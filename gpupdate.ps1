@@ -1,5 +1,5 @@
 ﻿
-unblock-file -Path "\\arquivosdti.clickip.local\automacao_dados\pyinstall\gpupdate.ps1" -WarningAction SilentlyContinue
+unblock-file -Path "YOUR-UNC-PATH" -WarningAction SilentlyContinue
 
 
 $updatepolicy = gpupdate /force 
